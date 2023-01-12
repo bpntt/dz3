@@ -1,0 +1,25 @@
+﻿Console.WriteLine("Ввведите координаты первой точки");
+Console.WriteLine("X");
+int x1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Y");
+int y1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Z");
+int z1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ввведите координаты первой точки");
+Console.WriteLine("X");
+int x2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Y");
+int y2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Z");
+int z2 = Convert.ToInt32(Console.ReadLine());
+int a = x1 + x2;
+int b = y1 + y2;
+int g = z2 - z1;
+double c = Math.Pow(a, 2);
+double d = Math.Pow(b, 2);
+double u = Math.Pow(g, 2);
+double e = a + b + u;
+double r = Math.Sqrt(e);
+double f = Math.Round(r, 2);
+Console.WriteLine(f);
+
